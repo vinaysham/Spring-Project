@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.demo.entity;
 
 import java.util.Date;
 
@@ -46,7 +46,7 @@ public class BookingModel {
 		return BeauticianDetail;
 	}
 	public void setBeauticianDetail(BeauticianModel beauticianDetail) {
-		TrainerDetails = beauticianDetail;
+		BeauticianDetail = beauticianDetail;
 	}
 	public String getLawfirmName() {
 		return lawfirmName;
